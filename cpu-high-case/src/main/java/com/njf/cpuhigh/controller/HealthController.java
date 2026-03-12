@@ -1,12 +1,16 @@
 package com.njf.cpuhigh.controller;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import java.lang.management.ManagementFactory;
 
 @RestController
+@Tag(name = "健康检查", description = "应用健康状态和系统信息查询")
 public class HealthController {
 
+    @Operation(summary = "健康检查", description = "获取应用运行状态、内存使用情况和可用接口列表")
     @GetMapping("/health")
     public String health() {
         Runtime runtime = Runtime.getRuntime();

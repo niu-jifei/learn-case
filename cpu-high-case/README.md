@@ -34,6 +34,13 @@ docker-compose up -d
 - 应用主页: http://localhost:8080/health
 - 查看应用状态和可用接口
 
+#### 访问 Swagger UI
+启动应用后，在浏览器中访问：
+
+Swagger UI 页面：http://localhost:8080/swagger-ui.html
+
+OpenAPI JSON 文档：http://localhost:8080/v3/api-docs
+
 ## 模拟的问题场景
 
 ### 场景1：死循环
