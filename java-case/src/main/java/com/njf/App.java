@@ -1,4 +1,4 @@
-package org.njf;
+package com.njf;
 
 /**
  * Hello world!

@@ -1,4 +1,4 @@
-package org.njf.feature.virtualThread;
+package com.njf.feature.virtualThread;
 
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;

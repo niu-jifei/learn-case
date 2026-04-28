@@ -1,4 +1,4 @@
-package org.njf.string;
+package com.njf.string;
 
 public class StringTest {
     public static void main(String[] args) {

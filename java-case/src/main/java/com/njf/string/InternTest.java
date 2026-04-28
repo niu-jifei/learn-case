@@ -1,4 +1,4 @@
-package org.njf.string;
+package com.njf.string;
 
 import org.junit.Test;
 

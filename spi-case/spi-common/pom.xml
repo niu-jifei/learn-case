@@ -3,30 +3,27 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.njf</groupId>
-        <artifactId>learn-case</artifactId>
+        <artifactId>spi-case</artifactId>
         <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>java-case</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>spi-common</artifactId>
     <packaging>jar</packaging>
 
-    <name>java-case</name>
+    <name>spi-common</name>
     <url>http://maven.apache.org</url>
 
-
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>3.8.1</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>

@@ -1,4 +1,4 @@
-package org.njf.typeparam;
+package com.njf.typeparam;
 
 import org.junit.Test;
 
