@@ -1,0 +1,4 @@
+#文件名必须是接口的全限定名: META-INF/services/<接口的全限定名>
+#每行一个实现类的全限定名
+
+com.njf.spi.driver.PostgreSQLDriver

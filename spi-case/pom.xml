@@ -12,6 +12,9 @@
     <url>http://maven.apache.org</url>
     <modules>
         <module>spi-common</module>
+        <module>spi-implA</module>
+        <module>spi-implB</module>
+        <module>spi-apply</module>
     </modules>
 
     <build>
